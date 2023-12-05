@@ -1,0 +1,17 @@
+SIDE_PANEL = {
+    'save_btn': {'type': 'css', 'locator': 'button[data-test="save"]'},
+    'cancel_btn': {'type': 'css', 'locator': 'button[data-test="cancel"]'},
+    'close_btn': {'type': 'css', 'locator': 'button[data-test="close"]'},
+    'title': {'type': 'css', 'locator': 'h3.side-panel__title'},
+    'description': {'type': 'css', 'locator': '.side-panel__head > div'},
+    'edit_btn': {'type': 'css', 'locator': 'button[data-test="edit"]'},
+    'unlock_btn': {'type': 'css', 'locator': 'button[data-test="unlock"]'},
+    'side_panel': {'type': 'css', 'locator': '.side-panel__base'},
+    'outside_side_panel': {'type': 'css', 'locator': 'div.side-panel__overlay[data-test="close"]'},
+    'popup_title': {'type': 'css', 'locator': '.modal-header h5'},
+    'popup_body_text': {'type': 'css', 'locator': '.modal-body div'},
+    'popup_cancel_btn': {'type': 'css', 'locator': '.modal-footer [data-test="close"]'},
+    'popup_confirm_btn': {'type': 'css', 'locator': '.modal-footer [data-test="confirm"]'},
+    'popup_content': {'type': 'css', 'locator': '.modal-content'},
+    'alerts': {'type': 'css', 'locator': '[role="alert"]'},
+}

@@ -1,0 +1,9 @@
+TOKENS = {
+    "stand": {
+        'admin': ''
+
+    }
+}
+
+
+

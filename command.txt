@@ -1,0 +1,47 @@
+-s: print logger info
+-m $mark: run only tests with mark $mark
+
+UI TESTS:
+--browser: browser to start tests
+--stand: stand to start tests
+    pytest --browser=chrome --stand=dev -s -m $mark $PATH_TO_FILE
+
+API TESTS:
+--env: service to start test
+    pytest --env=storage_serv_tmp -s -m $mark $PATH_TO_TEST_FILE
+
+# poetry add <package> - similar to pip install
+
+# poetry show - show list of installed packages
+
+# pytest commands
+ -v - verbose
+ -q - quiet
+ -s - --capture=no
+ -x - exit instantly on first error or failed test
+ --color=yes/no/auto - color terminal output
+
+
+ SELENOID connect
+
+-curl -s https://aerokube.com/cm/bash | bash && ./cm selenoid start — vnc
+-chmod +x cm
+./cm selenoid start — vnc
+To run GUI run the next command:
+./cm selenoid-ui start
+GUI access
+-http://localhost:8080/
+connect selenium
+-localhost:4444/wd/hub
+
+
+# testIT export
+# testit --url https://10.6.4.191/
+# testit --privatetoken cjBGYzdNcTdqYllDT2U2TVlS
+# testit --projectid 5cb062a5-3f9f-4066-baca-a6ab4cc2cff6
+# testit --configurationid 954b849e-ff60-4011-95fe-1140da854549
+# testit -rd .\Reports\
+
+run tests
+
+python3 -m pytest --env=dev_magnus -v -s  --alluredir=../../Reports -v

@@ -1,0 +1,17 @@
+ALL_TASKS = {
+    'header': {'type': 'css', 'locator': 'h1.versatile-header__title'},
+    'all_tasks_tab': {'type': 'css', 'locator': '.versatile-header__tabs>div:nth-child(1)'},
+    'my_tasks_tab': {'type': 'css', 'locator': '.versatile-header__tabs>div:nth-child(2)'},
+    'responsible_title': {'type': 'css', 'locator': '[data-test="column-header-key1"]'},
+    'responsible_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(1)'},
+    'time_title': {'type': 'css', 'locator': '[data-test="column-header-key2"]'},
+    'time_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(2)'},
+    'status_title': {'type': 'css', 'locator': '[data-test="column-header-key3"]'},
+    'status_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(3)'},
+    'directory_title': {'type': 'css', 'locator': '[data-test="column-header-key4"]'},
+    'directory_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(4)'},
+    'rule_title': {'type': 'css', 'locator': '[data-test="column-header-key5"]'},
+    'rule_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(5)'},
+    'changes_title': {'type': 'css', 'locator': '[data-test="column-header-key6"]'},
+    'changes_cell': {'type': 'css', 'locator': '.flex-table__body a div:nth-child(6)'},
+}
